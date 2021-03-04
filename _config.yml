@@ -23,9 +23,14 @@ twitter_username:
 github_username:  adam-nathan
 
 # Build settings
+remote-theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
 markdown: kramdown
 highlighter: rouge
-remote-theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts: 
+    css_class: 'highlight'
 paginate: 5
 paginate_path: "/posts/page:num/"
 plugins:
@@ -33,6 +38,8 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-email-protect
+  - jekyll-analytics
 
 exclude:
   - Gemfile
@@ -47,3 +54,8 @@ exclude:
   - .jekyll-cache
   - LICENSE.md
   - README.md
+
+jekyll-analytics:
+  GoogleAnalytics:
+    id: UA-191131849-1
+    anonymizeIp: false

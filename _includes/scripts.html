@@ -4,6 +4,10 @@
 
 <script src="{{"/assets/scripts.js" | relative_url }}"></script>
 
+{% if page.usemathjax %}
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+{% endif %}
+
 {% if page.url contains 'contact' %}
   <!-- Form Validation -->
   <script src="{{"/assets/vendor/startbootstrap-clean-blog/js/jqBootstrapValidation.js" | relative_url }}"></script>

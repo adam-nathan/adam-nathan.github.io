@@ -1,9 +1,7 @@
 ---
-layout: post
 title: "Fair disjunction using streams"
 ---
 
-## Fair disjunction
 An important feature of logic programming is the ability to handle divergent search paths. To understand this better, take the following example.
 
 ```fsharp

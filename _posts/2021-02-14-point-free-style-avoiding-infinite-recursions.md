@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Point-free style - avoiding infinite recursions"
 ---
 

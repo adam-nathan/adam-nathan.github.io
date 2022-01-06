@@ -1,10 +1,8 @@
 ---
-layout: post
 title: "Using APL to Design Better Algorithms"
-usemathjax: true
----
+mathjax: true
 
-# Using APL to Design Better Algorithms
+---
 
 A while ago I became interested in the APL language. I don't quite remember how I got into it but there is something magical about it. It's hotly debated if APL is readable with it's cryptic symbols, I can vouch that it does become easier with time and part of me feels like I'm Neo in the Matrix. 
 

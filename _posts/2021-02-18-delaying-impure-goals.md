@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Delaying impure goals"
 ---
 One of the issues of impure goals is that order of evaluation matters because if the variables have not been unified yet then it's unclear if the goal passed or failed.

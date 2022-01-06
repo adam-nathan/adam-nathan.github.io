@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Logic programming inequalities"
 ---
 

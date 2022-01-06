@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Convert a framework into a library"
 subtitle: "SQL type provider"
 ---

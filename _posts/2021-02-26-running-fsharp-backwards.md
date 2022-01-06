@@ -1,8 +1,6 @@
 ---
-layout: post
 title: "Running F# Backwards"
 ---
-# Running F# Backwards
 Finally I am able to start solving complex logic problems. 
 
 ## Hello World!

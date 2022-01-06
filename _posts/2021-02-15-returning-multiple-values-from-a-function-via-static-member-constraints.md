@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Returning multiple values from a function via static member constraints"
 ---
 

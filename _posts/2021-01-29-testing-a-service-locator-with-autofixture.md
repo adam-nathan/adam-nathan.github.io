@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Testing a service locator using AutoFixture"
 ---
 

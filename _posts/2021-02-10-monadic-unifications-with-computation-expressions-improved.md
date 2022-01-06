@@ -1,6 +1,4 @@
 ---
-layout: post
-
 title: "Monadic unifications with computation expressions improved"
 ---
 Previously I showed how it's possible to create a simple logic program using computation expressions. There a few things that bother me though.

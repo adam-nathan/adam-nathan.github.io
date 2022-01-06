@@ -1,6 +1,4 @@
 ---
-layout: post
-
 title: "Monadic unifications with computation expressions"
 ---
 

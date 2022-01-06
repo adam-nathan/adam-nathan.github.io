@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Unification using F# quotations"
 ---
 

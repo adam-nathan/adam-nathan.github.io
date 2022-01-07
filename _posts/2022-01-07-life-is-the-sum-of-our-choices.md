@@ -11,7 +11,7 @@ x \xrightarrow{f_1} x_1 \xrightarrow{f_2} \dots \xrightarrow{f_{n}} x_n
 $$
 A `monad` is the same, just with extra metadata (`ϵ`) riding along and accumulating at each step
 >Think of `ϵ` as 'environment' or  'effect'
->
+
 $$
 \begin{align*}
 x \to \epsilon_1 x_1 \to \epsilon_2 x_2 \to \epsilon_3 x_3 \to \dots \to \epsilon_nx_n \\
@@ -24,6 +24,7 @@ x \to \epsilon_1 x_1 \to \epsilon_2 x_2 \to \epsilon_3 x_3 \to \dots \to \epsilo
 \epsilon_{1\dots_n} x_n
 \end{align*}
 $$
+
 $\epsilon_{..i}$ represents the historical past that led up to the value $x_i$
 
 As the title suggests monads can be summed/multiplied, or to be more fancy are **monoids in the category of endofunctors**. We only need an ***initial*** $\epsilon_0$ and a method to ***combine*** $ϵ \otimes ϵ$.

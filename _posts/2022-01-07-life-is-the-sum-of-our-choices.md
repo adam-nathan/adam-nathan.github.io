@@ -1,4 +1,8 @@
-# Life is the sum of our choices
+---
+title: "Life is the sum of our choices"
+mathjax: true
+---
+
 Functions accept and emit values
 $$f:: \star \rightarrow \star$$
 Imagine composing functions like a pipe; taking values and transforming them at each step in time.
